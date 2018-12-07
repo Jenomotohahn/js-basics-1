@@ -22,3 +22,25 @@
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+
+var myName = 'Jennifer Enomoto-Hahn';
+var person = { name: myName, age: 31};
+var canDrive = true;
+
+
+function greet(name){
+    console.log( 'Hello, my name is ' + name);
+}
+
+greet('Jennifer');
+
+var dataTypes = [23, null, undefined, 'kitty', true, {pet: 'dog'}];
+
+var dog = {
+    bark: function(){
+        console.log( 'bark!') ;    
+    },
+    name: 'Spot'
+}
+
+
